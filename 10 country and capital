@@ -8,16 +8,19 @@ font of the capital (color, bold and font size) -->
     <title>Country and Capital</title>
     <style>
       body {
-        background-color: aqua;
+        background-color: #FFFFA7;
       }
       .country-label {
         display: inline-block;
         margin-right: 10px;
+        color: #006499;
+        font-size:24px;
+        font-weight: bold;
       }
 
       .capital {
         font-size: 20px;
-        color: blue;
+        color: green;
         font-weight: bold;
       }
 
@@ -35,7 +38,7 @@ font of the capital (color, bold and font size) -->
       }
 
       input[type="radio"]:checked + label:before {
-        content: "✔";
+        content: "✔️";
         font-size: 18px;
         text-align: center;
         line-height: 20px;
@@ -59,16 +62,16 @@ font of the capital (color, bold and font size) -->
     <div>
       <input type="radio" name="country" id="USA" value="USA" />
       <label for="USA" class="country-label">
-        United States
-        <span class="capital">Washington, D.C.</span>
+        United Arab Emirates
+        <span class="capital">Abudhabi</span>
       </label>
     </div>
     <br />
     <div>
       <input type="radio" name="country" id="Canada" value="Canada" />
       <label for="Canada" class="country-label">
-        Canada
-        <span class="capital">Ottawa</span>
+        kingdom of Saudi Arabia
+        <span class="capital">Riyadh</span>
       </label>
     </div>
     <br />
